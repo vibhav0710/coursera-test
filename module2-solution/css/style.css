@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+    font-family: helvetica, verdana, sans-serif;
+}
+
+h1{
+	color: black;
+    font-size: 200%;
+    text-align: center;
+}
+
+section{
+	border: 1px solid black;    
+    background-color: lightgray;
+    height: 310px;
+    overflow: auto;
+    padding-left: 10px;
+}
+
+p{
+	clear: right;
+    width: 90%;
+}
+
+h2{
+	float: right;
+    border:1px solid black;
+    color: black;
+    font-size: 125%;
+    padding: 5px 20px 5px 20px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    clear: left;
+}
+
+#chicken{
+	background-color: pink;
+}
+
+#beef{
+	background-color: red;
+}
+
+#sushi{
+	background-color: bisque;
+}
+
+/********** Desktop version **********/
+@media (min-width: 992px) {
+    .pc-1, .pc-2, .pc-3, .pc-4, .pc-5, .pc-6, .pc-7, .pc-8, .pc-9, .pc-10, .pc-11, .pc-12 {
+      float: left;
+      padding: 15px;
+    }
+    .pc-1 {
+      width: 8.33%;
+    }
+    .pc-2 {
+      width: 16.66%;
+    }
+    .-3 {
+      width: 25%;
+    }
+    .pc-4 {
+      width: 33.33%;
+    }
+    .pc-5 {
+      width: 41.66%;
+    }
+    .pc-6 {
+      width: 50%;
+    }
+    .pc-7 {
+      width: 58.33%;
+    }
+    .pc-8 {
+      width: 66.66%;
+    }
+    .pc-9 {
+      width: 75%;
+    }
+    .pc-10 {
+      width: 83.33%;
+    }
+    .pc-11 {
+      width: 91.66%;
+    }
+    .pc-12 {
+      width: 100%;
+    }
+  }
+  
+  /********** Tablet version **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    .tab-1, .tab-2, .tab-3, .tab-4, .tab-5, .tab-6, .tab-7, .tab-8, .tab-9, .tab-10, .tab-11, .tab-12 {
+      float: left;
+      padding: 15px;
+    }
+    .tab-1 {
+      width: 8.33%;
+    }
+    .tab-2 {
+      width: 16.66%;
+    }
+    .tab-3 {
+      width: 25%;
+    }
+    .tab-4 {
+      width: 33.33%;
+    }
+    .tab-5 {
+      width: 41.66%;
+    }
+    .tab-6 {
+      width: 50%;
+    }
+    .tab-7 {
+      width: 58.33%;
+    }
+    .tab-8 {
+      width: 66.66%;
+    }
+    .tab-9 {
+      width: 75%;
+    }
+    .tab-10 {
+      width: 83.33%;
+    }
+    .tab-11 {
+      width: 91.66%;
+    }
+    .tab-12 {
+      width: 100%;
+    }
+  }
+
+  /********** Mobile version **********/
+  @media (max-width: 767px) {
+    .mv-1, .mv-2, .mv-3, .mv-4, .mv-5, .mv-6, .mv-7, .mv-8, .mv-9, .mv-10, .mv-11, .mv-12 {
+      float: left;
+      padding: 15px;
+    }
+    .mv-1 {
+      width: 8.33%;
+    }
+    .mv-2 {
+      width: 16.66%;
+    }
+    .mv-3 {
+      width: 25%;
+    }
+    .mv-4 {
+      width: 33.33%;
+    }
+    .mv-5 {
+      width: 41.66%;
+    }
+    .mv-6 {
+      width: 50%;
+    }
+    .mv-7 {
+      width: 58.33%;
+    }
+    .mv-8 {
+      width: 66.66%;
+    }
+    .mv-9 {
+      width: 75%;
+    }
+    .mv-10 {
+      width: 83.33%;
+    }
+    .mv-11 {
+      width: 91.66%;
+    }
+    .mv-12 {
+      width: 100%;
+    }
+  }
